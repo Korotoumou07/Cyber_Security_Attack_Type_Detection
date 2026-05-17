@@ -1,11 +1,9 @@
 # Cyber Security Attack Type Detection
-
 ## Project Overview
 This project focuses on detecting and classifying cyber-attacks using Machine Learning techniques.
 
 The objective is to identify different attack categories and improve cybersecurity monitoring systems.
 
----
 
 ## Business Problem
 Cybersecurity threats are increasing rapidly and organizations need intelligent systems capable of identifying malicious activities.
@@ -16,7 +14,6 @@ This project aims to:
 - Improve threat monitoring
 - Support cybersecurity analytics
 
----
 
 ## Dataset
 Dataset: cybersecurity_attacks.csv
@@ -26,7 +23,6 @@ Target classes:
 - Intrusion
 - Normal traffic
 
----
 
 ## Technologies Used
 - Python
@@ -37,7 +33,6 @@ Target classes:
 - Seaborn
 - Streamlit
 
----
 
 ## Workflow
 
@@ -49,12 +44,11 @@ Analyzed:
 
 ### 📸 Screenshots 
 - Attack distribution chart
-  <img width="602" height="368" alt="image" src="https://github.com/user-attachments/assets/a95ab80d-028c-44ea-a34a-99e90483f372" />
+<img width="602" height="368" alt="image" src="https://github.com/user-attachments/assets/a95ab80d-028c-44ea-a34a-99e90483f372" />
 
 - Correlation heatmap
-  <img width="766" height="526" alt="image" src="https://github.com/user-attachments/assets/97782826-665b-4abf-ae71-1e1a24f3706c" />
+<img width="766" height="526" alt="image" src="https://github.com/user-attachments/assets/97782826-665b-4abf-ae71-1e1a24f3706c" />
 
----
 
 ### 2. Feature Engineering
 Performed:
@@ -62,7 +56,7 @@ Performed:
 - Encoding
 - Feature selection
 - Data balancing
----
+
 
 ### 3. Modeling
 Models evaluated:
@@ -80,7 +74,6 @@ Models evaluated:
 <img width="1234" height="725" alt="image" src="https://github.com/user-attachments/assets/1f3bfd1b-02c3-47a1-9780-6adbbe615ab2" />
 
 
----
 
 ### 4. Streamlit Web Application
 Features:
@@ -89,7 +82,7 @@ Features:
 - Real-time prediction
 - Threat visualization
 
-### 📸 Screenshots to Add
+### 📸 Screenshots 
 - Prediction interface
 <img width="1909" height="1077" alt="image" src="https://github.com/user-attachments/assets/f7218ecc-2438-462d-bf8e-5779e6394a11" />
 <img width="1897" height="1066" alt="image" src="https://github.com/user-attachments/assets/bb2156c7-e314-40ba-9848-916609793985" />
@@ -97,15 +90,11 @@ Features:
 
 
 
-
----
-
 ## Results
 Key findings:
 - Logistic Regression performed slightly better than other evaluated models
 - Feature quality significantly impacted model performance
 
----
 
 ## Installation
 ```bash
@@ -114,7 +103,6 @@ pip install -r requirements.txt
 streamlit run Website.py
 ````
 
----
 
 ## Future Improvements
 
@@ -122,5 +110,5 @@ streamlit run Website.py
 * Deep learning models
 * Real-time monitoring system
 
-````
+
 
